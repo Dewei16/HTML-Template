@@ -1,0 +1,93 @@
+.header {
+    background-color: rgb(229, 225, 167);
+    padding: 50px;
+    width: 1330px;
+    text-align: center; 
+    line-height: .5;
+    border-style: double; 
+    border-radius: 5px;
+    font-family: fantasy;
+    text-decoration-color: black;
+    color: brown
+
+}
+.header p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black
+}
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.topnav  {
+    margin-top: 0;
+    width: 1430px;
+    overflow: hidden;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.topnav a {
+    color: white;
+    padding: 8px 10px;
+    float: left;
+}
+
+body {
+    background-color:rgb(232, 230, 207);
+    margin: 0;
+}
+
+.container {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 1fr 100px;
+}
+
+.leftcolumn {
+    width: 1000px;
+    height: 730px;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(229, 131, 131);
+}
+
+.card {
+    margin: 10px;
+    width: 880px;
+    height: 255px;
+    padding: 50px;
+    background-color: rgb(252, 252, 249)
+}
+
+.card, h1 {
+    text-align: center;
+}
+
+.rightcolumn {
+    margin-top: 15px;
+    width: 300px;
+    height: 730px;
+    padding: 20px;
+    background-color: rgb(51, 105, 87);
+}
+
+.card1 {
+    margin: 10px;
+    width: 250px;
+    height: 193px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.footer {
+    background-color: rgb(45, 98, 98);
+    padding: 30px;
+    width: 1350px;
+}
+
+
